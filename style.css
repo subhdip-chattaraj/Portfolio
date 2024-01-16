@@ -1,0 +1,315 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #00FFFF;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    position: center;
+    background-color: #131213;
+    margin-top: 10PX;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+nav ul li a:hover {
+    color: #E0A96D;
+    font-size: 1.02rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 2.5rem;
+    margin-left: 1px;
+}
+
+.right {
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.first>div {
+    width: 40%;
+}
+
+.Rightsection img {
+    width: 80%;
+    height: 80%;
+    margin-top: 80px;
+}
+
+.Leftsection {
+    font-size: 3rem;
+}
+
+.name {
+    color: #E1B0AC;
+}
+
+.Leftsection img {
+    width: 55%;
+    height: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 100px;
+}
+
+#element {
+    color: #E0A96D;
+}
+
+.info {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 40px 60px 60px;
+    background-color: #CCF381;
+
+}
+
+.info>div {
+    width: 50%;
+}
+
+.Leftside {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    position: left;
+}
+
+.Rightside img {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 35%;
+}
+
+.Leftside .title-s {
+    color: black;
+    font-size: 3rem;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.Leftside .my {
+    color: indigo;
+    font-size: 2.5rem;
+
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    margin: 40px 84px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.head {
+    text-align: center;
+    background-color: black;
+    width: 30%;
+    margin-left: 38%;
+}
+
+.about {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 40px 60px 60px;
+}
+
+.about .text {
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: #EE4E34;
+    margin-left: 10px;
+}
+
+.about .text p {
+    margin-left: 5px;
+    color: #131213;
+}
+
+.about .text .name2 {
+    color: rgb(3, 12, 49);
+    font-size: 2.2rem;
+    text-decoration: solid;
+    text-shadow: #131213;
+}
+
+.about .image {
+    background-color: black;
+    border-radius: 10%;
+}
+
+.about .image img {
+    margin-top: 15%;
+}
+.skill h2 {
+    text-align: center;
+    color: rgb(239, 0, 0)
+    text-decoration: underline;
+}
+
+.skill .one {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 40px 60px 60px;
+    align-items: center;
+}
+
+.skill .one div img {
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.skill .two {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 40px 60px 60px;
+    align-items: center;
+}
+
+.skill .two div img {
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.skill .two .js img {
+    margin-left: 10%;
+    width: 50%;
+}
+
+.skill .two .ds img {
+    margin-left: 10%;
+    width: 50%;
+}
+
+.footer {
+    background-color: antiquewhite;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: 40px 60px 60px;
+
+}
+
+.icos {
+    background-color: #1d8eb0;
+}
+
+.icos h2 {
+    align-items: center;
+    color: #131213;
+    margin-left: 0%;
+    margin-top: 35px;
+    text-decoration: wavy underline;
+}
+
+.icos p {
+    color: #131213;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.massage {
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    color: #131213;
+}
+
+.massage .msg {
+    font-size: 2rem;
+    margin-top: 10%;
+    color: #131213;
+    text-decoration: wavy underline;
+}
+
+.massage input {
+    height: 30px;
+    width: 300px;
+    margin-top: 10%;
+    color: #131213;
+}
+
+.massage button {
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 50px;
+    width: 150px;
+    background: #131213;
+    color: #E0A96D;
+    font-size: 2rem;
+    border-radius: 10%;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.ing img {
+    width: 10%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+
+.fb img {
+    width: 18%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.wp img {
+    width: 10%;
+    margin-left: 13%;
+    margin-top: 5%;
+}
+.fb{
+    color: #131213;
+}
+.wp{
+    color: #131213;
+}
+.ing{
+    color: #131213;
+}
